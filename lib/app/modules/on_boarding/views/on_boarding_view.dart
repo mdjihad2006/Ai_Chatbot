@@ -25,8 +25,7 @@ class OnBoardingView extends GetView<OnBoardingController> {
               Column(
                 children: [
                   SizedBox(
-                    height: size.height * 0.6,
-
+                    height: size.height * 0.63,
 
                     child: Image.asset(AppImage.splashImage, fit: BoxFit.fill),
                   ),
