@@ -11,7 +11,7 @@ class ChatController extends GetxController {
   final ScrollController scrollController = ScrollController();
   final Rx<File?> selectedImage = Rx<File?>(null);
 
-  static const String _apiKey = "AIzaSyDZXg9MYoQdrlvbjWZ49UQ0Nz1c9FEgkCg";
+  static const String _apiKey = "AIzaSyDQE8B6qCXnoMpRApQS2yc-fb-thDOLvoA";
   late final GenerativeModel _model;
 
   @override
